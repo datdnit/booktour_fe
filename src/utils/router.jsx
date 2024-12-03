@@ -4,6 +4,8 @@ export const ROUTERS = {
 
     },
     USER: {
-
+        HOME: '/',
+        TOUR_DETAIL: '/tour/:id',
+        FAVORITE: '/favorite',
     }
 }
