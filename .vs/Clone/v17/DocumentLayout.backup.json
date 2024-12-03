@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\sidebar\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\page\\admin\\component\\sidebar\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\tour\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\page\\admin\\tour\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\main\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\page\\admin\\component\\main\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\footer\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\page\\admin\\component\\footer\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\main\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\page\\admin\\component\\main\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -99,57 +91,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.jsx",
-              "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\sidebar\\index.jsx",
-              "RelativeDocumentMoniker": "src\\page\\admin\\component\\sidebar\\index.jsx",
-              "ToolTip": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\sidebar\\index.jsx",
-              "RelativeToolTip": "src\\page\\admin\\component\\sidebar\\index.jsx",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-12-03T15:12:46.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.jsx",
-              "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\tour\\index.jsx",
-              "RelativeDocumentMoniker": "src\\page\\admin\\tour\\index.jsx",
-              "ToolTip": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\tour\\index.jsx",
-              "RelativeToolTip": "src\\page\\admin\\tour\\index.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-12-03T15:09:55.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.jsx",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\main\\index.jsx",
               "RelativeDocumentMoniker": "src\\page\\admin\\component\\main\\index.jsx",
               "ToolTip": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\main\\index.jsx",
               "RelativeToolTip": "src\\page\\admin\\component\\main\\index.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-03T08:57:15.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "index.jsx",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\footer\\index.jsx",
               "RelativeDocumentMoniker": "src\\page\\admin\\component\\footer\\index.jsx",
               "ToolTip": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\src\\page\\admin\\component\\footer\\index.jsx",
               "RelativeToolTip": "src\\page\\admin\\component\\footer\\index.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-03T08:57:01.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "favicon.ico - Icon [16x16, 32 bit, PNG]",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\public\\favicon.ico",
               "RelativeDocumentMoniker": "public\\favicon.ico",
@@ -161,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "modules.xml",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\.idea\\modules.xml",
               "RelativeDocumentMoniker": ".idea\\modules.xml",
@@ -173,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\public\\index.html",
               "RelativeDocumentMoniker": "public\\index.html",
@@ -181,11 +147,12 @@
               "RelativeToolTip": "public\\index.html",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-29T16:11:25.519Z"
+              "WhenOpened": "2024-11-29T16:11:25.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "package.json",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\package.json",
               "RelativeDocumentMoniker": "package.json",
@@ -197,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "robots.txt",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\public\\robots.txt",
               "RelativeDocumentMoniker": "public\\robots.txt",
@@ -209,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "manifest.json",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\public\\manifest.json",
               "RelativeDocumentMoniker": "public\\manifest.json",
@@ -221,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "README.md",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -233,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "yarn.lock",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\yarn.lock",
               "RelativeDocumentMoniker": "yarn.lock",
@@ -241,11 +208,12 @@
               "RelativeToolTip": "yarn.lock",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-29T17:18:01.343Z"
+              "WhenOpened": "2024-11-29T17:18:01.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "booktour_fe.iml",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\.idea\\booktour_fe.iml",
               "RelativeDocumentMoniker": ".idea\\booktour_fe.iml",
@@ -257,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -269,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "package-lock.json",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\package-lock.json",
               "RelativeDocumentMoniker": "package-lock.json",
@@ -281,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\.idea\\.gitignore",
               "RelativeDocumentMoniker": ".idea\\.gitignore",
@@ -293,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "HTMLPage1.html",
               "DocumentMoniker": "D:\\HP\\HTML\\HTMLPage1.html",
               "RelativeDocumentMoniker": "..\\..\\HTML\\HTMLPage1.html",
@@ -305,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "Project_Default.xml",
               "DocumentMoniker": "D:\\HP\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m\\Clone\\.idea\\inspectionProfiles\\Project_Default.xml",
               "RelativeDocumentMoniker": ".idea\\inspectionProfiles\\Project_Default.xml",

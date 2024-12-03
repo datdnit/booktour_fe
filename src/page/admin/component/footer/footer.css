@@ -1,0 +1,89 @@
+/* Footer tổng quát */
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 5px 0;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Newsletter */
+.newsletter-input {
+  padding: 8px;
+  width: calc(100% - 40px);
+  margin-bottom: 10px;
+  border: none;
+}
+
+.newsletter-button {
+  padding: 8px 20px;
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: #cc0000;
+}
+
+/* Mạng xã hội */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+/* Copyright */
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
