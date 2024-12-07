@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./style.css"
 import { faTicket, faClock, faPlane, faBookmark } from '@fortawesome/free-solid-svg-icons';
-
+import {memo} from "react";
 
 function TourDetail() {
     return (
@@ -261,5 +260,5 @@ function TourDetail() {
     )
 }
 
-export default TourDetail
+export default memo(TourDetail)
 

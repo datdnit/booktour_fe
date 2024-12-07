@@ -3,7 +3,7 @@ import Header from "../header";
 import Footer from "../footer";
 import Sidebar from "../sidebar";
 
-const Main = ({children, ...props}) => {
+const AdminMain = ({children, ...props}) => {
     return <div {...props}>
        <div className="main-content">
            <Header />
@@ -13,4 +13,4 @@ const Main = ({children, ...props}) => {
        </div>
     </div>
 }
-export default memo(Main);
+export default memo(AdminMain);
