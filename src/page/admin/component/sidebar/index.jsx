@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import './_sidebar.scss'
 import { memo } from "react";
@@ -30,3 +31,4 @@ const SideBar = () => {
     )
 }
 export default memo(SideBar);
+
