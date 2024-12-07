@@ -4,16 +4,9 @@ export const ROUTERS = {
     COMPONENT: "/",
   },
   USER: {
+      HOME: '/home',
     TOUR: "/tours",
   },
 };
 
-    ADMIN: {
-        COMPONENT: '/',
-
-    },
-    USER: {
-        HOME: '/home',
-    }
-}
 
