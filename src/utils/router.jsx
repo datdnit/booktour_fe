@@ -1,4 +1,5 @@
 export const ROUTERS = {
+
   ADMIN: {
     COMPONENT: "/",
   },
@@ -6,3 +7,13 @@ export const ROUTERS = {
     TOUR: "/tours",
   },
 };
+
+    ADMIN: {
+        COMPONENT: '/',
+
+    },
+    USER: {
+        HOME: '/home',
+    }
+}
+

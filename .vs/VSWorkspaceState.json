@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\page",
+    "\\src\\page\\admin",
+    "\\src\\page\\admin\\component",
+    "\\src\\page\\admin\\component\\footer",
+    "\\src\\page\\admin\\tour",
+    "\\src\\page\\user",
+    "\\src\\page\\user\\tour_detail",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\src\\page\\admin\\component\\footer",
+  "PreviewInSolutionExplorer": false
+}
