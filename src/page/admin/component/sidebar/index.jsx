@@ -5,14 +5,7 @@ import {memo} from "react";
 const SideBar = () => {
     return (
         <>
-            <div id="sidebar">
-                <div className="sidebar-top">
-                    Hello
-                    <div className="sidebar-main">
-                        Hi
-                    </div>
-                </div>
-            </div>
+
         </>
     )
 }
