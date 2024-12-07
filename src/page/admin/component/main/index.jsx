@@ -5,7 +5,7 @@ import Sidebar from "../sidebar";
 
 const Main = ({children, ...props}) => {
     return <div {...props}>
-       <div className="main-content row">
+       <div className="main-content">
            <Header />
            <Sidebar />
            {children}
