@@ -1,9 +1,11 @@
 export const ROUTERS = {
-    ADMIN: {
-        COMPONENT: '/',
-
-    },
-    USER: {
-
-    }
-}
+  ADMIN: {
+    COMPONENT: "",
+  },
+  USER: {
+    HOME: '/home',
+    TOUR_DETAIL: '/tour_detail',
+    FAVORITE: '/favorite',
+    TOUR: "/tours",
+  },
+};

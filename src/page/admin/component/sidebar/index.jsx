@@ -1,19 +1,8 @@
-import './_sidebar.scss'
-import {memo} from "react";
+import { memo } from "react";
 
-
-const SideBar = () => {
-    return (
-        <>
-            <div id="sidebar">
-                <div className="sidebar-top">
-                    Hello
-                    <div className="sidebar-main">
-                        Hi
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+const Sidebar = () => {
+    return <>
+        <h2>Hello</h2>
+    </>
 }
-export default memo(SideBar);
+export default memo(Sidebar);
