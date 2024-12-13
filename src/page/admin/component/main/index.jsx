@@ -1,7 +1,9 @@
 import { memo } from "react";
 import Header from "../header";
-import Footer from "../footer";
+
 import Sidebar from "../sidebar";
+import App from "../footer/App";
+
 
 const AdminMain = ({ children, ...props }) => {
   return (
@@ -12,7 +14,6 @@ const AdminMain = ({ children, ...props }) => {
         {children}
         <Footer />
       </div>
-    </div>
   );
 };
 export default memo(AdminMain);

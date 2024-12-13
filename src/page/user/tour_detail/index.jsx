@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./style.css"
 import { faTicket, faClock, faPlane, faBookmark } from '@fortawesome/free-solid-svg-icons';
-import {memo} from "react";
+import { memo } from "react";
+import PreviewImage from './preview-image';
 
 function TourDetail() {
+    const [openView, setOpenView] = useState(false);
+    const [src, setSrc] = useState("");
+
+    const handleCloseView = () => {
+        setSrc("")
+        setOpenView(false)
+    }
+    const handleView = (src) => {
+        setSrc(src);
+        setOpenView(true);
+    }
     return (
         <div>
             <div className="detail wcm">
                 <div className="intro">
                     <div className="left">
-                        <div className="c-code">
-                            <p className="ttl"><FontAwesomeIcon icon={faTicket} style={{ paddingRight: 5 }} /> Mã tour:</p>
-                            <p className="txt">HANQUOC4N4DTT</p>
-                        </div>
                         <h1 className="detail__ttl">
                             HÀN QUỐC 4N4Đ | SEOUL – TRƯỢT TUYẾT – LOTTE WORLD (KHỞI HÀNH: 2025)
                         </h1>
@@ -96,6 +104,7 @@ function TourDetail() {
                     <div className="item">
                         <div className="thumb">
                             <img
+                                onClick={() => handleView("https://www.luavietours.com/wp/wp-content/uploads/2024/11/thap-namsan-mua-dong.jpg")}
                                 rel="js-lazy"
                                 src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/thap-namsan-mua-dong.jpg"
                                 data-src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/thap-namsan-mua-dong.jpg"
@@ -108,6 +117,7 @@ function TourDetail() {
                     <div className="item">
                         <div className="thumb">
                             <img
+                                onClick={() => handleView("https://www.luavietours.com/wp/wp-content/uploads/2024/01/lotteworld-han-quoc.jpg")}
                                 rel="js-lazy"
                                 src="https://www.luavietours.com/wp/wp-content/uploads/2024/01/lotteworld-han-quoc.jpg"
                                 data-src="https://www.luavietours.com/wp/wp-content/uploads/2024/01/lotteworld-han-quoc.jpg"
@@ -120,6 +130,7 @@ function TourDetail() {
                     <div className="item">
                         <div className="thumb">
                             <img
+                                onClick={() => handleView("https://www.luavietours.com/wp/wp-content/uploads/2024/11/khu-truot-tuyet-seoul-elysian-han-quoc.jpg")}
                                 rel="js-lazy"
                                 src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/khu-truot-tuyet-seoul-elysian-han-quoc.jpg"
                                 data-src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/khu-truot-tuyet-seoul-elysian-han-quoc.jpg"
@@ -132,6 +143,7 @@ function TourDetail() {
                     <div className="item">
                         <div className="thumb">
                             <img
+                                onClick={() => handleView("https://www.luavietours.com/wp/wp-content/uploads/2024/10/thu-vien-sach-starfield-han-quoc.jpg")}
                                 rel="js-lazy"
                                 src="https://www.luavietours.com/wp/wp-content/uploads/2024/10/thu-vien-sach-starfield-han-quoc.jpg"
                                 data-src="https://www.luavietours.com/wp/wp-content/uploads/2024/10/thu-vien-sach-starfield-han-quoc.jpg"
@@ -144,6 +156,7 @@ function TourDetail() {
                     <div className="item">
                         <div className="thumb">
                             <img
+                                onClick={() => handleView("https://www.luavietours.com/wp/wp-content/uploads/2024/11/hero-show-han-quoc.jpg")}
                                 rel="js-lazy"
                                 src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/hero-show-han-quoc.jpg"
                                 data-src="https://www.luavietours.com/wp/wp-content/uploads/2024/11/hero-show-han-quoc.jpg"
@@ -256,6 +269,7 @@ function TourDetail() {
                     </div>
                 </div>
             </div>
+            {openView && <PreviewImage open={openView} handleClose={handleCloseView} src={src} />}
         </div>
     )
 }
