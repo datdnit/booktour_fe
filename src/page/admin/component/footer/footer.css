@@ -47,7 +47,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Newsletter */
+/* Email */
 .newsletter-input {
   padding: 8px;
   width: calc(100% - 40px);
@@ -67,7 +67,7 @@ footer {
   background-color: #cc0000;
 }
 
-/* Mạng xã hội */
+/* MXH */
 .social-links {
   margin-top: 10px;
 }
@@ -81,7 +81,7 @@ footer {
   margin-right: 10px;
 }
 
-/* Copyright */
+/* Credit */
 .footer-copyright {
   text-align: center;
   margin-top: 20px;

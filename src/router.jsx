@@ -7,12 +7,14 @@ import TourDetail from "./page/user/tour_detail";
 import Favorite from "./page/user/favorite";
 import TourUser from "./page/user/tour__list";
 import Home from "./page/user/home";
+
 import TourAdd from "./page/admin/tour__add";
 import TourList from "./page/admin/tour__list";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TourOrder from "./page/admin/tour__order";
-
+import App from "./page/admin/news/App";
 const theme = createTheme();
+
 
 const renderAdminRouter = () => {
     const adminRouters = [
@@ -22,6 +24,7 @@ const renderAdminRouter = () => {
         },
         // Add other admin routes here
         {
+
             path: ROUTERS.ADMIN.ADD_TOUR,
             element: <TourAdd />,
         },
@@ -33,6 +36,11 @@ const renderAdminRouter = () => {
             path: ROUTERS.ADMIN.TOUR_ORDER,
             element: <TourOrder />,
         },
+
+            path: ROUTERS.ADMIN.NEWS, // Đường dẫn cho Quản lý tin tức
+            element: <App />,
+        }
+
     ];
 
     return (

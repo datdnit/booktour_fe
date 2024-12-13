@@ -1,0 +1,143 @@
+/* Body */
+body {
+  font-family: Calibri, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 10px;
+  margin-bottom: 40px; 
+}
+
+.header-right {
+  align-self: flex-end; 
+  margin-top: 10px; 
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button.btn-primary {
+  background-color: #2600ff;
+  color: white;
+}
+
+/* Tin tức */
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các tin tức */
+  margin-top: 20px;
+}
+
+.news-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Form nội dung */
+.news-form .form-group {
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; 
+  width: 75%;
+}
+
+.news-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.news-form textarea {
+  width: 100%;
+  height: calc(2.5 * 30px); 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; 
+}
+
+.news-form .form-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; 
+}
+
+button.btn-info {
+  background-color: #17b84f;
+  color: white;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+button.btn-danger {
+  background-color: #d7192c;
+  color: white;
+}
+
+
+.news-form .toolbar {
+  margin-bottom: 10px;
+}
+
+.news-form .toolbar button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.news-form .form-control[contenteditable="true"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 150px;
+  background-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    align-items: center;
+  }
+
+  .header-right {
+    align-self: center; 
+  }
+
+  .news-form .form-group {
+    width: 90%; 
+  }
+}
