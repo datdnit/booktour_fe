@@ -2,9 +2,23 @@
   font-family: "Bai Jamjuree", serif;
 }
 
-body, html {
+body,
+html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  &:not(:disabled) {
+    cursor: pointer;
+    text-transform: none;
+  }
+}
+
+.MuiTablePagination-displayedRows {
+  display: none;
 }
