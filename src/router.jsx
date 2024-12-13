@@ -45,49 +45,48 @@ const renderAdminRouter = () => {
             path: ROUTERS.ADMIN.NEWS,
             element: <News />,
         }
-
     ];
 
-    return (
-        <AdminMain>
-            <Routes>
-                {adminRouters.map((route, idx) => (
-                    <Route key={idx} path={route.path} element={route.element} />
-                ))}
-            </Routes>
-        </AdminMain>
-    );
+  return (
+    <AdminMain>
+      <Routes>
+        {adminRouters.map((route, idx) => (
+          <Route key={idx} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </AdminMain>
+  );
 };
 
 const renderUserRouter = () => {
-    const userRouters = [
-        {
-            path: ROUTERS.USER.HOME,
-            element: <Home />,
-        },
-        {
-            path: ROUTERS.USER.TOUR_DETAIL,
-            element: <TourDetail />,
-        },
-        {
-            path: ROUTERS.USER.FAVORITE,
-            element: <Favorite />,
-        },
-        {
-            path: ROUTERS.USER.TOUR,
-            element: <TourUser />,
-        },
-    ];
+  const userRouters = [
+    {
+      path: ROUTERS.USER.HOME,
+      element: <Home />,
+    },
+    {
+      path: ROUTERS.USER.TOUR_DETAIL,
+      element: <TourDetail />,
+    },
+    {
+      path: ROUTERS.USER.FAVORITE,
+      element: <Favorite />,
+    },
+    {
+      path: ROUTERS.USER.TOUR,
+      element: <TourUser />,
+    },
+  ];
 
-    return (
-        <UserMain>
-            <Routes>
-                {userRouters.map((route, idx) => (
-                    <Route key={idx} path={route.path} element={route.element} />
-                ))}
-            </Routes>
-        </UserMain>
-    );
+  return (
+    <UserMain>
+      <Routes>
+        {userRouters.map((route, idx) => (
+          <Route key={idx} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </UserMain>
+  );
 };
 
 const RouterCustom = () => {
