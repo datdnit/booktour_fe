@@ -1,7 +1,8 @@
 import {memo} from "react";
 import Header from "../header";
-import Footer from "../footer";
+
 import Sidebar from "../sidebar";
+import App from "../footer/App";
 
 const AdminMain = ({children, ...props}) => {
     return <div {...props}>
@@ -9,7 +10,8 @@ const AdminMain = ({children, ...props}) => {
            <Header />
            <Sidebar />
            {children}
-           <Footer />
+           {/*Footer*/}
+           <App />
        </div>
     </div>
 }

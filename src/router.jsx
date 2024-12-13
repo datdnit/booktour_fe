@@ -8,12 +8,16 @@ import Favorite from "./page/user/favorite";
 import TourUser from "./page/user/tour__list";
 import Home from "./page/user/home";
 
+import App from "./page/admin/news/App";
+
+
 import TourAdd from "./page/admin/tour__add";
 import TourList from "./page/admin/tour__list";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TourOrder from "./page/admin/tour__order";
 import App from "./page/admin/news/App";
 const theme = createTheme();
+
 
 
 const renderAdminRouter = () => {
