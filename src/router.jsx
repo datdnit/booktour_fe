@@ -7,7 +7,8 @@ import TourDetail from "./page/user/tour_detail";
 import Favorite from "./page/user/favorite";
 import TourUser from "./page/user/tour__list";
 import Home from "./page/user/home";
-import NewsManagement from "./page/admin/tour/news";
+import App from "./page/admin/news/App";
+
 
 const renderAdminRouter = () => {
     const adminRouters = [
@@ -18,7 +19,7 @@ const renderAdminRouter = () => {
         // Add other admin routes here
         {
             path: ROUTERS.ADMIN.NEWS, // Đường dẫn cho Quản lý tin tức
-            element: <NewsManagement />,
+            element: <App />,
         }
     ];
 
