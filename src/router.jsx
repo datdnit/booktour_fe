@@ -9,63 +9,65 @@ import TourUser from "./page/user/tour__list";
 import Home from "./page/user/home";
 
 const renderAdminRouter = () => {
-    const adminRouters = [
-        {
-            path: ROUTERS.ADMIN.COMPONENT, // Consider adding a specific path for admin like '/admin' or '/admin/tour'
-            element: <Tour />,
-        },
-        // Add other admin routes here
-    ];
+  const adminRouters = [
+    {
+      path: ROUTERS.ADMIN.COMPONENT, // Consider adding a specific path for admin like '/admin' or '/admin/tour'
+      element: <Tour />,
+    },
+    // Add other admin routes here
+  ];
 
-    return (
-        <AdminMain>
-            <Routes>
-                {adminRouters.map((route, idx) => (
-                    <Route key={idx} path={route.path} element={route.element} />
-                ))}
-            </Routes>
-        </AdminMain>
-    );
+  return (
+    <AdminMain>
+      <Routes>
+        {adminRouters.map((route, idx) => (
+          <Route key={idx} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </AdminMain>
+  );
 };
 
 const renderUserRouter = () => {
-    const userRouters = [
-        {
-            path: ROUTERS.USER.HOME,
-            element: <Home />,
-        },
-        {
-            path: ROUTERS.USER.TOUR_DETAIL,
-            element: <TourDetail />,
-        },
-        {
-            path: ROUTERS.USER.FAVORITE,
-            element: <Favorite />,
-        },
-        {
-            path: ROUTERS.USER.TOUR,
-            element: <TourUser />,
-        },
-    ];
+  const userRouters = [
+    {
+      path: ROUTERS.USER.HOME,
+      element: <Home />,
+    },
+    {
+      path: ROUTERS.USER.TOUR_DETAIL,
+      element: <TourDetail />,
+    },
+    {
+      path: ROUTERS.USER.FAVORITE,
+      element: <Favorite />,
+    },
+    {
+      path: ROUTERS.USER.TOUR,
+      element: <TourUser />,
+    },
+  ];
 
-    return (
-        <UserMain>
-            <Routes>
-                {userRouters.map((route, idx) => (
-                    <Route key={idx} path={route.path} element={route.element} />
-                ))}
-            </Routes>
-        </UserMain>
-    );
+  return (
+    <UserMain>
+      <Routes>
+        {userRouters.map((route, idx) => (
+          <Route key={idx} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </UserMain>
+  );
 };
 
 const RouterCustom = () => {
-    return (
-        <Routes>
-            <Route path="/admin/*" element={renderAdminRouter()} /> {/* Use wildcard to catch all admin routes */}
-            <Route path="/*" element={renderUserRouter()} /> {/* Use wildcard to catch all user routes, make sure this is placed after the admin route */}
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/admin/*" element={renderAdminRouter()} />{" "}
+      {/* Use wildcard to catch all admin routes */}
+      <Route path="/*" element={renderUserRouter()} />{" "}
+      {/* Use wildcard to catch all user routes, make sure this is placed after the admin route */}
+    </Routes>
+  );
 };
 
 export default RouterCustom;

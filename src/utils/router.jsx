@@ -3,9 +3,9 @@ export const ROUTERS = {
     COMPONENT: "",
   },
   USER: {
-    HOME: '/home',
-    TOUR_DETAIL: '/tour_detail',
-    FAVORITE: '/favorite',
+    HOME: "/home",
+    TOUR_DETAIL: "/tour_detail",
+    FAVORITE: "/favorite",
     TOUR: "/tours",
   },
 };
