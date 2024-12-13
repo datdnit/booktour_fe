@@ -7,7 +7,14 @@ import TourDetail from "./page/user/tour_detail";
 import Favorite from "./page/user/favorite";
 import TourUser from "./page/user/tour__list";
 import Home from "./page/user/home";
-import NewsManagement from "./page/admin/tour/news";
+
+import TourAdd from "./page/admin/tour__add";
+import TourList from "./page/admin/tour__list";
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import TourOrder from "./page/admin/tour__order";
+import App from "./page/admin/news/App";
+const theme = createTheme();
+
 
 const renderAdminRouter = () => {
     const adminRouters = [
@@ -17,9 +24,23 @@ const renderAdminRouter = () => {
         },
         // Add other admin routes here
         {
+
+            path: ROUTERS.ADMIN.ADD_TOUR,
+            element: <TourAdd />,
+        },
+        {
+            path: ROUTERS.ADMIN.LIST_TOUR,
+            element: <TourList />,
+        },
+        {
+            path: ROUTERS.ADMIN.TOUR_ORDER,
+            element: <TourOrder />,
+        },
+
             path: ROUTERS.ADMIN.NEWS, // Đường dẫn cho Quản lý tin tức
-            element: <NewsManagement />,
+            element: <App />,
         }
+
     ];
 
     return (
@@ -66,10 +87,12 @@ const renderUserRouter = () => {
 
 const RouterCustom = () => {
     return (
-        <Routes>
-            <Route path="/admin/*" element={renderAdminRouter()} /> {/* Use wildcard to catch all admin routes */}
-            <Route path="/*" element={renderUserRouter()} /> {/* Use wildcard to catch all user routes, make sure this is placed after the admin route */}
-        </Routes>
+        <ThemeProvider theme={theme}>
+            <Routes>
+                <Route path="/admin/*" element={renderAdminRouter()} /> {/* Use wildcard to catch all admin routes */}
+                <Route path="/*" element={renderUserRouter()} /> {/* Use wildcard to catch all user routes, make sure this is placed after the admin route */}
+            </Routes>
+        </ThemeProvider>
     );
 };
 
