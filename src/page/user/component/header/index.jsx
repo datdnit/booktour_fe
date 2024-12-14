@@ -1,27 +1,35 @@
-
 import { Link } from 'react-router-dom';
 import './style.css'
 import { memo } from "react";
 
-
 const Header = () => {
     const onToggleSideBar = () => {
-        var x = document.getElementById("myTopnav");
+        let x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
             x.className += " responsive";
         } else {
             x.className = "topnav";
         }
     }
+
+    const menuItems = [
+        { id: "special-offer", label: "Ưu đãi đặc biệt" },
+        { id: "outstanding", label: "Tour nổi bật" },
+        { id: "favorite-destinations", label: "Điểm đến yêu thích" },
+        { id: "new_event", label: "Tin tức sự kiện" },
+    ];
+
     return (
         <>
-
             <div className="topnav" id="myTopnav">
-                <Link to={"/"} className="active">Trang chủ</Link>
-                <a href="#news">Ưu đã đặc biệt</a>
-                <a href="#contact">Tour nổi bật</a>
-                <a href="#favorite">Địa điểm yêu thích</a>
-                <a href="#about">Tin tức sự kiện</a>
+                <Link to={"/home"} className="logo-link">
+                    <img src="/assets/images/logo.jpg" alt="Logo"/>
+                </Link>
+                <div className="nav-links">
+                    {menuItems.map(item => (
+                        <a key={item.id} href={`#${item.id}`}>{item.label}</a>
+                    ))}
+                </div>
                 <a href="#" className="icon" onClick={onToggleSideBar}>
                     <i className="fa fa-bars"></i>
                 </a>
@@ -30,4 +38,3 @@ const Header = () => {
     )
 }
 export default memo(Header);
-

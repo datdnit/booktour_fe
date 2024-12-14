@@ -3,7 +3,7 @@ import "./news.css";
 import {memo} from "react";
 
 
-const App = () => {
+const News = () => {
     const [newsList, setNewsList] = useState([]);
     const [currentView, setCurrentView] = useState("list");
     const [editingIndex, setEditingIndex] = useState(null);
@@ -166,4 +166,4 @@ const App = () => {
     );
 };
 
-export default memo(App);
+export default memo(News);

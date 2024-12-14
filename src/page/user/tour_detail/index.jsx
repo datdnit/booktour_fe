@@ -22,10 +22,6 @@ function TourDetail() {
             <div className="detail wcm">
                 <div className="intro">
                     <div className="left">
-                        <div className="c-code">
-                            <p className="ttl"><FontAwesomeIcon icon={faTicket} style={{ paddingRight: 5 }} /> Mã tour:</p>
-                            <p className="txt">HANQUOC4N4DTT</p>
-                        </div>
                         <h1 className="detail__ttl">
                             HÀN QUỐC 4N4Đ | SEOUL – TRƯỢT TUYẾT – LOTTE WORLD (KHỞI HÀNH: 2025)
                         </h1>

@@ -448,9 +448,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="button-see-more">
-                    <Link to={"#"}>
+                    <a href="/tours">
                         <button className="btn style-btn" type="button">Xem Thêm</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>
